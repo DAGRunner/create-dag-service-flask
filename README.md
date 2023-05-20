@@ -1,5 +1,8 @@
 # create-dag-service-flask
-This service contains APIs that take a json representation of a DAG, then build and store a DAG in Airflow.
+This service tranlates json representations of graphs to airflow DAGs.
+
+### Prerequisites
+- airflow-docker instance installed
 
 ### Installation
 - pip(3) install -r requirements.txt
